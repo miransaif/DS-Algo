@@ -9,7 +9,7 @@ def searchOperation(arr, low, high, target):
             high = high-1
         else:
             low = low+1
-
+    return -1
 
 # driver code
 
