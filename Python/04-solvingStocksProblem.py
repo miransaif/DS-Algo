@@ -1,4 +1,5 @@
 # PS: best time to buy and sell the stocks
+# TC : O(n)
 
 # functionality
 def findProfit(price):
