@@ -1,11 +1,12 @@
 #Problem Statement : Array is sorted and find 2 numbers whose sum is 210 from arrary
+# TC : O(n)
 
 # funtionality
 def searchOperation(arr, low, high, target):
     while low <= high:
         if arr[low]+arr[high] == target:
             return(low, high)
-        elif target < arr[low]+arr[high]:
+        elif target < arr[low]+arr[high]:   
             high = high-1
         else:
             low = low+1
