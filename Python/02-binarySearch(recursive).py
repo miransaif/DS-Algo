@@ -1,5 +1,6 @@
-#functionality
+# TC : O(logn)
 
+#functionality
 def binarySearch(arr, target, low, high):
     while low <= high:
         mid = low + (high-low)//2

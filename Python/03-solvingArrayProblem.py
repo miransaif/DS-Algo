@@ -1,4 +1,4 @@
-#Problem Statement : Array is sorted and find 2 numbers whose sum is 210 from arrary
+#Problem Statement : Array is sorted and find 2 numbers whose sum is 210 from arrary (2 pointer approach)
 # TC : O(n)
 
 # funtionality

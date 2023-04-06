@@ -1,3 +1,5 @@
+# TC : O(n)
+
 # Actual functionality
 def linearSearch(arr, target):
     for i in range(len(arr)):
